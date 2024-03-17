@@ -1,46 +1,66 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0; 
+body{
+    margin: 0;padding: 0;
+    font-family: sans-serif;
 }
 header {
-    background-color: #2ba2dd;
+    background-color: hsl(35, 9%, 25%);
     color: #fff;
-    padding: 10px;
-    
-}
-h1 {
+    padding: 20px;
     text-align: center;
-    font-size: 40px;
-    margin-top: -80px;
-    margin-left: auto;
 }
-.logo {
-    max-width: 300px;
-    height: 170px;
-    margin-top: 10px;
-    margin-left: -10px;
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
-.logoket {
-    max-width: 300px;
-    height: 170px;
-    margin-top: -100%;
-    margin-left: -1300px;
-}
-nav {
-    background-color: #ce0f0f;
-    color: #fff;
-    padding: 10px;
+.box-menu{
+    background-color: #DC2323;
     text-align: center;
-    
 }
-nav a {
+.box-menu nav{
+    display: inline-flex;
+   list-style: none;
+   color: #fff;
+}
+.box-menu nav li{
+    width: 125px;
+    padding: 5px;
+    margin: 20px;
+}
+.box-menu nav li a{
     color: #fff;
     text-decoration: none;
-    padding: 50px;
 }
-nav a:hover {
-    background-color: #333; 
+.active,.box-menu nav li:hover{
+    background-color:#27220c;
+    border-radius: 3px;
+}
+.box-menu{
+    margin: 5px;
+}
+.box-submenu{
+    display: none;
+}
+.box-menu nav li:hover .box-submenu{
+    display: block;
+    position: absolute;
+    background: #27220c;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.box-menu nav li:hover .box-submenu nav{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.box-menu nav li:hover .box-submenu nav li{
+    width: 220px;
+    text-align: left;
+    border-bottom: dotted 1px #fff;
+    background: transparent;
+    border-radius: 0;
+    padding: 10px;
+    margin: 10px;
 }
 section {
     font-size: 150%;
