@@ -4,10 +4,28 @@ body {
     padding: 0; 
 }
 header {
-    background-color: #3a4246;
+    background-color: #2ba2dd;
     color: #fff;
     padding: 10px;
+    
+}
+h1 {
     text-align: center;
+    font-size: 40px;
+    margin-top: -80px;
+    margin-left: auto;
+}
+.logo {
+    max-width: 300px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.logoket {
+    max-width: 300px;
+    height: 170px;
+    margin-top: -100%;
+    margin-left: -1300px;
 }
 nav {
     background-color: #ce0f0f;
@@ -35,10 +53,14 @@ footer {
     text-align: center;
     padding: -25px;
     bottom: 0;
-    width: 1450px;
-    height: 150px;
-    font-size: 20px;
+    width: 1470px;
+    height: 170px;
+    font-size: 15px;
 }
+.ketthuc {
+    margin-left: 20%;
+}
+
 .dong1{
     text-align: justify;
 }
