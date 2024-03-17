@@ -1,12 +1,31 @@
 body{
-    margin: 0;padding: 0;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
 }
 header {
-    background-color: hsl(35, 9%, 25%);
+    background-color: #2ba2dd;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    
+}
+h1 {
     text-align: center;
+    font-size: 40px;
+    margin-top: -80px;
+    margin-left: auto;
+}
+.logo {
+    max-width: 300px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.logoket {
+    max-width: 300px;
+    height: 170px;
+    margin-top: -100%;
+    margin-left: -1300px;
 }
 *{
     box-sizing: border-box;
@@ -164,7 +183,4 @@ footer {
 .dong12{
     font-size: 20px;
     text-align: justify;
-}
-.h3 {
-    text-align: center;
 }
