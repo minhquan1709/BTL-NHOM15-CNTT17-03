@@ -51,7 +51,7 @@ h1 {
     text-decoration: none;
 }
 .active,.box-menu nav li:hover{
-    background-color:#27220c;
+    background-color:#B54B2E;
     border-radius: 3px;
 }
 .box-menu{
@@ -63,7 +63,7 @@ h1 {
 .box-menu nav li:hover .box-submenu{
     display: block;
     position: absolute;
-    background: #27220c;
+    background: #B54B2E;
     margin-top: 15px;
     margin-left: -15px;
 }
@@ -80,6 +80,12 @@ h1 {
     border-radius: 0;
     padding: 10px;
     margin: 10px;
+}
+.box-menu nav li:hover .box-submenu nav li:last-child{
+border-bottom: none;
+}
+.box-menu nav li:hover .box-submenu nav li a:hover{
+    color: yellowgreen;
 }
 section {
     font-size: 150%;
