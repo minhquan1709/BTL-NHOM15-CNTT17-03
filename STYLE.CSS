@@ -7,7 +7,6 @@ header {
     background-color: #2ba2dd;
     color: #fff;
     padding: 10px;
-    
 }
 h1 {
     text-align: center;
@@ -108,7 +107,6 @@ footer {
 
 .dong1{
     text-align: justify;
-    text-align: justify;
 }
 
 
@@ -190,4 +188,24 @@ footer {
 .dong12{
     font-size: 20px;
     text-align: justify;
+}
+.dong13 {
+    font-size: 20px;
+    text-align: justify;
+}
+.dong14{
+    font-size: 20px;
+    text-align: justify;
+}
+.dong15{
+    font-size: 20px;
+    text-align: justify;
+}
+.anh8 {
+    text-align: center;
+    margin-left: 150px;
+}
+.anh9 {
+    text-align: center;
+    margin-left: 150px;
 }
