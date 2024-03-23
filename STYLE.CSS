@@ -224,6 +224,10 @@ footer {
     text-align: center;
     margin-left: 150px;
 }
+.anh11 {
+    text-align: center;
+    margin-left: 150px;
+}
 .dong16 {
     font-size: 20px;
     text-align: justify;
@@ -236,6 +240,29 @@ footer {
     font-size: 20px;
     text-align: justify;
 }
-.lich{
-    letter-spacing:2px;
+.dong19 {
+    font-size: 20px;
+    text-align: justify;
+}
+.dong20 {
+    font-size: 20px;
+    text-align: justify;
+}
+.dong21 {
+    font-size: 20px;
+    text-align: justify;
+}
+.dong22 {
+    font-size: 20px;
+    text-align: justify;
+}
+.lich {
+    letter-spacing:1px;
+    text-align: justify;
+    margin-top: 15px
+}
+.lich2 {
+    letter-spacing:1px;
+    text-align: justify;
+    margin-top: 15px
 }
