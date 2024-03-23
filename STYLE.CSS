@@ -58,6 +58,7 @@ h1 {
 }
 .box-submenu{
     display: none;
+    text-decoration: none;
 }
 .box-menu nav li:hover .box-submenu{
     display: block;
@@ -248,6 +249,14 @@ footer {
     text-align: center;
     margin-left: 150px;
 }
+.anh17 {
+    text-align: center;
+    margin-left: 150px;
+}
+.anh18 {
+    text-align: center;
+    margin-left: 150px;
+}
 .dong16 {
     font-size: 20px;
     text-align: justify;
@@ -293,6 +302,18 @@ footer {
     text-align: justify;
 }
 .dong27 {
+    font-size: 20px;
+    text-align: justify;
+}
+.dong28 {
+    font-size: 20px;
+    text-align: justify;
+}
+.dong29 {
+    font-size: 20px;
+    text-align: justify;
+}
+.dong30 {
     font-size: 20px;
     text-align: justify;
 }
