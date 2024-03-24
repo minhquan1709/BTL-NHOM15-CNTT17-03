@@ -26,6 +26,14 @@ h1 {
     margin-top: -100%;
     margin-left: -1300px;
 }
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DC2323;  
+    z-index: 1000; 
+}
 *{
     box-sizing: border-box;
     -moz-box-sizing: border-box;
