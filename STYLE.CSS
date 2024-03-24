@@ -48,13 +48,15 @@ h1 {
 .box-menu nav li a{
     color: #fff;
     text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
 }
 .active,.box-menu nav li:hover{
     background-color:#B54B2E;
     border-radius: 3px;
 }
 .box-menu{
-    margin: 5px;
+    margin: 10px;
 }
 .box-submenu{
     display: none;
